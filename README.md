@@ -50,7 +50,7 @@ The objective is to showcase solid data engineering & analytics engineering prac
 │
 ├── dbt_project.yml
 
-```bash
+```
 -------
 
 ## 🚀 Setup & Run
