@@ -117,6 +117,14 @@ cd CineAnalytics-with-dbt-Snowflake
 - RAW.R_RATINGS → fct_ratings
 - RAW.R_TAGS → snap_tags
 
+  ----------
+## 🌟 Future Improvements
+- Add incremental models for large datasets
+- Implement exposures for BI dashboards
+- Extend marts with genre-level aggregations
+
+  ------------
+
 ## 📜 License
 MIT License — free to use and modify.
 
