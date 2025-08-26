@@ -14,7 +14,7 @@ The objective is to showcase solid data engineering & analytics engineering prac
 - Data quality & business rule tests
 - Custom dbt macros
 - Analytical queries in /analyses
-- 
+
 ----------------------------------
 
 ## 🛠 Tech Stack
