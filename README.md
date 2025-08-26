@@ -54,12 +54,15 @@ The objective is to showcase solid data engineering & analytics engineering prac
 -------
 
 ## 🚀 Setup & Run
-1- Clone repository
-   git clone https://github.com/<your-username>/movielens-dbt.git
-   cd movielens-dbt
-   
 
-2- Configure Snowflake profile (profiles.yml)
+### 1. Clone the repository
+```bash
+git clone https://github.com/dnyanda10/CineAnalytics-with-dbt-Snowflake.git
+cd CineAnalytics-with-dbt-Snowflake
+
+```
+
+### 2- Configure Snowflake profile (profiles.yml)
   movielens:
   target: dev
   outputs:
@@ -73,19 +76,19 @@ The objective is to showcase solid data engineering & analytics engineering prac
       warehouse: COMPUTE_WH
       schema: DEV
 
-3- Load Seeds
+### 3- Load Seeds
    dbt seed
    
 
-4- Run Models
+### 4- Run Models
    dbt run
    
 
-5- Run All Tests
+### 5- Run All Tests
    dbt test
    
 
-6- Explore DAG / Docs
+### 6- Explore DAG / Docs
    dbt docs generate
    dbt docs serve
 
