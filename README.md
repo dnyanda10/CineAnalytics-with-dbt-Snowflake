@@ -126,7 +126,7 @@ cd CineAnalytics-with-dbt-Snowflake
   ------------
 
 ## 📜 License
-MIT License — free to use and modify.
+This project is licensed under the MIT License — free to use and modify.
 
 
 
